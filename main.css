@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+}
+
+#background {
+background-image: url("comp1.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+div {
+  width: 100%;
+  align-self: center;
+  text-align: center;
+  padding-top: 80px;
+}
+
+h1 {
+  border: 3px solid black;
+  margin: 42px;
+  font-size: 56px;
+  padding: 64px;
+  background-color: rgba(0,0,0, 0.3);
+  border-radius: 20px;
+  font-family: 'Muli', sans-serif;
+}
+
+
+.port {
+  text-decoration: none;
+  color: grey;
+  text-align: center;
+  font-weight: bold;
+  font-size: 24px;
+  transition: all 400ms ease;
+  padding: 2px;
+  font-family: 'Muli', sans-serif;
+}
+
+.port:hover {
+  border-top: 3px solid grey;
+  border-bottom: 3px solid grey;
+}
+
+.maintext {
+  font-size: 64px;
+  color: white;
+  text-align: center;
+  padding-top: 256px;
+}
+
+.mailpage {
+  background-color: grey;
+  width: 100%;
+  height: 100%;
+}
+
+.emailtext {
+  font-size: 24px;
+  opacity: 1.0;
+  text-decoration: none;
+}
